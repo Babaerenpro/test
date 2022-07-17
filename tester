@@ -1,1 +1,1 @@
-game.ReplicatedStorage:FindFirstChild("CharStats"):FindFirstChild(player.Name).HealthValues.Head.Broken.Value = true
+game.ReplicatedStorage:FindFirstChild("CharStats"):FindFirstChild("Katanix_654").HealthValues.Head.Broken.Value = true
