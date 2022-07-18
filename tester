@@ -1,8 +1,4 @@
-local module = {}
-
-function module.load(target)
-	_G.target = target
-	local target = game.Players:WaitForChild(_G.target)
-	script.HAHAHAHAHA:Clone().Parent = target.PlayerGui
-end
-return module
+local ScreenUI = Instance.new("ScreenGui")
+ScreenUI.Parent = game.Players.LocalPlayer.PlayerGui
+local Frame = Instance.new("Frame")
+Frame.Parent = ScreenUI
