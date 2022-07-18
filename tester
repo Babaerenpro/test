@@ -1,6 +1,6 @@
 local Part = Instance.new("Part")
-Part.Parent = workspace
-Part.Name = "HAHAHAHA"
 Part.Position = workspace.Characters.Bubaerenpro.Torso.Position
 Part.Size = Vector3.new(4,4,4)
 Part.Transparency = 0.2
+Part.Parent = workspace
+Part.Name = "HAHAHAHA"
